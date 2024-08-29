@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+}
+body{
+ 
+    background: url(./img/2641100.gif);   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav{
+	max-width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	font-size: 20px;
+	padding-top: 0%;
+	padding-left: 1%;
+	padding-right: 1%;
+	align-items:end;
+	background-color:rgb(2, 2, 2);
+	border: 2px solid white; 
+}
+
+h1{
+	color: white;
+	font-weight: bolder;
+	font-size: 45px;
+}
+
+
+ul li {
+
+}
+
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.menu-horizontal > li:hover{
+	background-color: rgb(14, 77, 82);
+}
+
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+
+.menu-vertical li:hover{
+	background-color: black;
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+
+#html{
+	margin: auto;
+	padding: 20px;
+	max-width: 900px;
+	background: white;
+
+}
